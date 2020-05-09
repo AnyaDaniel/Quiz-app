@@ -113,8 +113,8 @@ getNewQuestion = () => {
     questionCounter++;
     questionCounterText.innerText = `${questionCounter}/${Max_questions}`;
 
-    const questionIndex = Math.floor(Math.random() * availableQuestions.lenght);
-    currentQuestion = availableQuestions[questionIndex];
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    const currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
 
     choices.forEach(choice => {
