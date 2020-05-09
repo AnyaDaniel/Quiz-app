@@ -130,3 +130,7 @@ input {
 input::placeholder {
     color: #aaa;
 }
+
+.finalScore {
+    font-size: 3rem;
+}
