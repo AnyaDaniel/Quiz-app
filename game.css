@@ -27,12 +27,21 @@
 
 .correct {
     background-color: #28a745;
-    text-decoration-color: white;
+    color: white;
+    z-index: -1;
+}
+
+.correct .choice-text {
+    color: white;
 }
 
 .incorrect {
     background-color: #dc3545;
-    text-decoration-color: White;
+    color: white;
+}
+
+.incorrect .choice-text {
+    color: white;
 }
 
 
